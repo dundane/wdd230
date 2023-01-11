@@ -1,31 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WDD 230 - Portal - Jared Doerr</title>
-    <meta name="description" content="Course assignment portal for BYUI online WDD 230 for Jared Doerr">
-    <meta name="author" content="Jared Doerr, doe22002@byui.edu">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <meta name="description" content="Course assignment portal for BYUI online WDD 230 for Jared Doerr" />
+    <meta name="author" content="Jared Doerr, doe22002@byui.edu" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
 </head>
+
 <body>
     <nav>
-        <img class="header-icon" src="images/hamburger-menu-closed.svg" alt="Menu Icon">
-        <span class="light-font"><img class="header-icon" src="images/linkedin-icon.jpg" alt="linked in icon"><a href="https://www.linkedin.com/in/jared-doerr-98055a1">Jared Doerr LinkedIn</a></span>
-        <span class="light-font"><img class="header-icon" src="images/byui-icon.jpg" alt="BYU Idaho logo"><a href="https://www.byui.edu">BYU Idaho</a></span>
+        <div class="nav-item">
+            <a href="#">&#9776;</a>
+        </div>
+        <div class="nav-item light-font">
+            <img class="header-icon" src="images/linkedin-icon.jpg" alt="linked in icon" />
+            <a href="https://www.linkedin.com/in/jared-doerr-98055a1">Jared Doerr LinkedIn</a>
+        </div>
+        <div class="nav-item light-font">
+            <img class="header-icon" src="images/byui-icon.jpg" alt="BYU Idaho logo" />
+            <a href="https://www.byui.edu">BYU Idaho</a>
+        </div>
     </nav>
     <header>
-        <img class="profile-picture" src="images/profilepic.jpeg" alt="Picture of Jared Doerr">
+        <img class="profile-picture" src="images/profilepic.jpeg" alt="Picture of Jared Doerr" />
         <h1>Jared Doerr</h1>
     </header>
     <main>
         <h2>WDD 230: Course Activity Portal</h2>
-        <section class="card">
+        <section class="learn-section card">
             <h3>Learning Activites</h3>
             <ul class="no-bullet-list">
-                <li><a class="light-font" href="week01/holygrail.html">Holy Grail</a><span> / </span> <a class="light-font" href="week01/chamber-site-plan.html">Chamber of Commerce Site Plan</a></li>
+                <li>
+                    <a class="light-font" href="week01/holygrail.html">Holy Grail</a><span> / </span>
+                    <a class="light-font" href="week01/chamber-site-plan.html">Chamber of Commerce Site Plan</a>
+                </li>
             </ul>
         </section>
         <section class="card">
@@ -38,8 +51,10 @@
         </section>
     </main>
     <footer>
-        <p id="copyright"></p><p id="lastModified" class="highlight"></p>
+        <p id="copyright"></p>
+        <p id="lastModified" class="highlight"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
 </body>
+
 </html>
