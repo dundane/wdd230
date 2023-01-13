@@ -129,6 +129,35 @@ footer {
   background-color: var(--font-on-dark);
   color: var(--font-on-light);
 }
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.menu::before {
+  content: "☰";
+  font-size: 2rem;
+}
+
+.responsive {
+  display: block;
+}
+
+.responsive li {
+  display: block;
+}
+
+.responsive a.menu::before {
+  content: "☓";
+}
 #mode {
   text-decoration: none;
 }
