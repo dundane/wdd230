@@ -6,9 +6,6 @@
   nav div {
     padding: 1rem 2rem;
   }
-  nav div a {
-    vertical-align: middle;
-  }
 
   main {
     display: grid;
