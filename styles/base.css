@@ -44,11 +44,19 @@ nav {
   flex-direction: column;
   gap: 8px;
   font-family: var(--heading-font);
-  font-size: large;
+  font-size: x-large;
   background-color: var(--secondary-color);
   color: var(--font-on-dark);
   grid-row: 1/2;
   padding: 1rem;
+}
+
+nav div {
+  display: block;
+}
+
+nav div a {
+  text-decoration: none;
 }
 
 header {
