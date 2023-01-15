@@ -153,13 +153,13 @@ footer {
 .main-section-row-two {
   grid-row: 2/3;
   grid-column: 2/4;
-  display: flex;
+  display: block;
   height: 25rem;
 }
 
 .main-section-row-three {
   grid-row: 3/4;
   grid-column: 2/4;
-  display: flex;
-  height: 25rem;
+  display: block;
+  height: 50rem;
 }
