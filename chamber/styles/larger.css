@@ -1,0 +1,19 @@
+@media only screen and (min-width: 38rem) {
+  #menu-button {
+    display: none;
+  }
+
+  nav {
+    position: initial;
+    display: block;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  #nav-menu-list,
+  #nav-menu-list.menu-open {
+    display: flex;
+    justify-content: right;
+    top: 0px;
+  }
+}
