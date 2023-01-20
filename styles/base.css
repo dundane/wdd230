@@ -161,3 +161,15 @@ footer {
 #mode {
   text-decoration: none;
 }
+
+#temple-label {
+  position: absolute;
+  top: 500px;
+  left: 175px;
+  background: radial-gradient(#fff, #4d5b97);
+  border: 1px sold --accent1-color;
+  padding: 1.5rem;
+  box-shadow: 0 0 3rem #fff;
+  opacity: 0.75;
+  color: var(--font-on-light);
+}

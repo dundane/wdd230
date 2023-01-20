@@ -39,11 +39,16 @@
         </ul>
     </nav>
     <header>
-        <img class="profile-picture" src="images/profile-picture.jpeg" alt="Picture of Jared Doerr">
+        <img class="profile-picture" src="images/profile-picture.webp" alt="Picture of Jared Doerr" loading="lazy">
         <h1>Jared Doerr</h1>
         <a href="#" id="mode">&#9788;</div>
     </header>
     <main class="dark-mode">
+        <picture>
+            <source media="(min-width:608px)" srcset="images/bountiful-temple-night.webp">
+            <img class="hero" src="images/bountiful-temple.webp" alt="arial photo bountiful temple" loading="lazy">
+        </picture>
+        <div id="temple-label">Bountiful Temple</div>
         <h2>WDD 230: Course Activity Portal</h2>
         <section class="learn-section card">
             <h3>Learning Activites</h3>
@@ -70,7 +75,7 @@
         </section>
         <section class="card">
             <h3>Information</h3>
-            <a href="#">TBD</a>
+            <div id="page-visits"></div>
         </section>
     </main>
     <iframe
@@ -85,6 +90,7 @@
     <script src="scripts/get-dates.js"></script>
     <script src="scripts/dark-theme.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/local-store.js"></script>
 </body>
 
 </html>
