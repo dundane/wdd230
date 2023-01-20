@@ -167,7 +167,10 @@ footer {
   top: 500px;
   left: 175px;
   background: radial-gradient(#fff, #4d5b97);
-  border: 1px sold --accent1-color;
+  border-style: solid;
+  border-radius: 10%;
+  border-width: 1px;
+  border-color: var(--font-on-light);
   padding: 1.5rem;
   box-shadow: 0 0 3rem #fff;
   opacity: 0.75;
