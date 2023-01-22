@@ -54,8 +54,8 @@ h2 {
 
 .discover-right-sidebar {
   grid-row: 3/4;
-  grid-column: 4/5;
-
+  grid-column: 2/5;
+  height: 250px;
   background-color: var(--paragraph-background-color);
 }
 
@@ -78,9 +78,19 @@ main {
   grid-template-rows: 1fr 1fr 1fr auto;
   display: block;
 }
+
 main.discover-main {
+  display: block;
   grid-column: 2/4;
-  background-color: blueviolet;
+  margin-top: 250px;
+}
+
+main.discover-main img {
+  display: block;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 auto;
 }
 
 nav {

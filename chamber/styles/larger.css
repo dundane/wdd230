@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 48rem) {
   #menu-button {
     display: none;
   }
@@ -8,6 +8,10 @@
     display: block;
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  main.discover-main img:hover {
+    transform: scale(1.1);
   }
 
   #nav-menu-list,
@@ -29,5 +33,19 @@
     grid-column: 2/4;
     display: flex;
     height: 25rem;
+  }
+
+  main.discover-main {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column: 2/4;
+    margin-top: 0px;
+  }
+  .discover-right-sidebar {
+    grid-row: 3/4;
+    grid-column: 4/5;
+    height: auto;
+
+    background-color: var(--paragraph-background-color);
   }
 }
