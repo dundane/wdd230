@@ -51,6 +51,24 @@ h1,
 h2 {
   font-family: var(--heading-font);
 }
+
+.discover-right-sidebar {
+  grid-row: 3/4;
+  grid-column: 4/5;
+
+  background-color: var(--paragraph-background-color);
+}
+
+.discover-right-sidebar label {
+  color: var(--headline-color-on-color);
+  font-family: var(--heading-font);
+}
+
+.discover-right-sidebar div {
+  color: var(--headline-color-on-color);
+  font-family: var(--paragraph-font);
+}
+
 main {
   grid-row: 3/4;
   grid-column: 2/5;
@@ -58,6 +76,11 @@ main {
   display: grid;
   grid-template-columns: 1fr auto auto 1fr;
   grid-template-rows: 1fr 1fr 1fr auto;
+  display: block;
+}
+main.discover-main {
+  grid-column: 2/4;
+  background-color: blueviolet;
 }
 
 nav {
