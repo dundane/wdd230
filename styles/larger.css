@@ -1,10 +1,31 @@
 @media only screen and (min-width: 40rem) {
-  nav {
-    flex-direction: row-reverse;
-  }
-
   nav div {
     padding: 1rem 2rem;
+  }
+
+  nav button {
+    display: none;
+  }
+  .navigation {
+    position: initial;
+    display: flex;
+    justify-content: flex-end;
+    border-style: none;
+    background-color: var(--secondary-color);
+    color: var(--font-on-dark);
+  }
+
+  nav ul li {
+    padding-left: 1rem;
+  }
+
+  nav ul.opened {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navigation a {
+    color: var(--font-on-dark);
   }
 
   main {
