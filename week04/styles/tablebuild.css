@@ -1,0 +1,54 @@
+caption {
+  padding: 0.5rem;
+  caption-side: bottom;
+  color: yellowgreen;
+  font-size: 0.8rem;
+}
+
+.checked {
+  text-align: center;
+  color: green;
+}
+thead th {
+  width: 6rem;
+}
+
+.checked::before {
+  content: "✔";
+}
+
+.x-ed {
+  text-align: center;
+  color: red;
+}
+
+.x-ed::before {
+  content: "✖";
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+tbody td {
+  border-right: 1px solid black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightgreen;
+}
+
+.dark-back {
+  background-color: darkgreen;
+  border-color: darkgreen;
+  color: whitesmoke;
+}
+
+.medium-back {
+  background-color: yellow;
+  border-color: yellow;
+}
