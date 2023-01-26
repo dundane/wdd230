@@ -159,11 +159,11 @@ footer {
 
 .card {
   display: grid;
-  grid-template-rows: 20px auto;
+  grid-template-rows: 1fr auto;
   border: solid;
   border-width: 2px;
   border-color: var(--font-on-light);
-  padding: 30px;
+  border-radius: 5%;
   margin: 10px;
 }
 
@@ -172,7 +172,10 @@ footer {
   font-family: var(--heading-font);
   background-color: var(--secondary-color);
   color: var(--font-on-dark);
-  height: 30px;
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 6%;
 }
 
 .card .card-content {
