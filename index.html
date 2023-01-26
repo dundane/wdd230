@@ -44,45 +44,55 @@
         <a href="#" id="mode">&#9788;</a>
     </header>
     <main class="dark-mode">
-        <picture>
+        <picture class="temple-picture">
             <source media="(min-width:608px)" srcset="images/bountiful-temple-night.webp">
             <img class="hero" src="images/bountiful-temple.webp" alt="arial photo bountiful temple" loading="lazy">
+            <div id="temple-label">Bountiful Temple</div>
         </picture>
-        <div id="temple-label">Bountiful Temple</div>
-        <h2>WDD 230: Course Activity Portal</h2>
-        <section class="learn-section card">
-            <h3>Learning Activites</h3>
-            <ul class="no-bullet-list">
-                <li>
-                    <Span>Week 01 : </Span>
-                    <a href="week01/holygrail.html">Holy Grail</a><span> / </span>
-                    <a href="week01/chamber-site-plan.html">Chamber of Commerce Site Plan</a>
-                </li>
-                <li>
-                    <span>Week 02 : </span><a href="https://codepen.io/dundane/pen/LYBLNrj">Responsive
-                        Hamburger</a>
-                </li>
-                <li>
-                    <span>Week 03 : </span><a href="week03/images/landscape.webp">Landscape Image</a><span> / </span>
-                    <a href="week03/lazyload.html">Lazy Load</a><span> / </span><a
-                        href="https://codepen.io/dundane/pen/gOjoOMX">Winter Is Coming</a>
-                </li>
-            </ul>
-        </section>
-        <section class="card">
-            <h3>Project</h3>
-            <a href="chamber/index.html">Future Chamber</a>
-        </section>
-        <section class="card">
-            <h3>Information</h3>
-            <div id="page-visits"></div>
-        </section>
+        <div class="content-cards">
+            <h2>WDD 230: Course Activity Portal</h2>
+            <section class="learn-section card">
+                <h3>Learning Activites</h3>
+                <div class="card-content">
+                    <ul class="no-bullet-list">
+                        <li>
+                            <Span>Week 01 : </Span>
+                            <a href="week01/holygrail.html">Holy Grail</a><span> / </span>
+                            <a href="week01/chamber-site-plan.html">Chamber of Commerce Site Plan</a>
+                        </li>
+                        <li>
+                            <span>Week 02 : </span><a href="https://codepen.io/dundane/pen/LYBLNrj">Responsive
+                                Hamburger</a>
+                        </li>
+                        <li>
+                            <span>Week 03 : </span><a href="week03/images/landscape.webp">Landscape Image</a><span> /
+                            </span>
+                            <a href="week03/lazyload.html">Lazy Load</a><span> / </span><a
+                                href="https://codepen.io/dundane/pen/gOjoOMX">Winter Is Coming</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="project-section card">
+                <h3>Project</h3>
+                <div class="card-content">
+                    <a href="chamber/index.html">Future Chamber</a>
+                </div>
+            </section>
+            <section class="information-section card">
+                <h3>Information</h3>
+                <div class="card-content">
+                    <div id="page-visits"></div>
+                </div>
+            </section>
+        </div>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24225.698404480787!2d-111.98943128471694!3d40.62519980243826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1674188309779!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </main>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24225.698404480787!2d-111.98943128471694!3d40.62519980243826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1674188309779!5m2!1sen!2sus"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+
     <footer>
         <p id="copyright"></p>
         <p id="lastModified" class="highlight"></p>

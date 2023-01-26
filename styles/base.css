@@ -16,6 +16,23 @@
   --paragraph-font: "Quicksand", Helvetica, sans-serif;
 }
 
+body {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+.temple-picture {
+  grid-row: 1/2;
+}
+
+.content-cards {
+  grid-row: 2/3;
+}
+
+.map {
+  margin-top: 2rem;
+  grid-row: 3/4;
+}
+
 nav {
   display: flex;
   flex-direction: row-reverse;
@@ -25,6 +42,7 @@ nav {
   background-color: var(--secondary-color);
   color: var(--font-on-dark);
   padding: 1rem;
+  grid-row: 1/2;
 }
 
 nav button {
@@ -71,6 +89,10 @@ nav ul.opened {
   color: var(--highlight-color);
 }
 
+.responsive .menu::before {
+  content: "☓";
+}
+
 .menu::before {
   content: "☰";
   font-size: 1.5rem;
@@ -84,9 +106,6 @@ nav ul.opened {
   display: block;
 }
 
-.responsive .menu::before {
-  content: "☓";
-}
 #mode {
   text-decoration: none;
 }
@@ -101,10 +120,16 @@ header {
   color: var(--font-on-dark);
   padding-top: 2rem;
   padding-left: 2rem;
+  grid-row: 2/3;
 }
 
 main {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
   padding: 4rem 4rem;
+
+  grid-row: 3/4;
 }
 #temple-label {
   position: absolute;
@@ -123,11 +148,34 @@ main {
 footer {
   font-family: var(--heading-font);
   text-align: center;
-  grid-row: 4/ 5;
+  grid-row: 4 / 5;
   background-color: var(--secondary-color);
   color: var(--font-on-dark);
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 20px auto;
+  border: solid;
+  border-width: 2px;
+  border-color: var(--font-on-light);
+  padding: 30px;
+  margin: 10px;
+}
+
+.card h3 {
+  grid-row: 1/2;
+  font-family: var(--heading-font);
+  background-color: var(--secondary-color);
+  color: var(--font-on-dark);
+  height: 30px;
+}
+
+.card .card-content {
+  grid-row: 2/3;
+  font-family: var(--paragraph-font);
 }

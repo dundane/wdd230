@@ -52,3 +52,7 @@ tbody tr:nth-child(even) {
   background-color: yellow;
   border-color: yellow;
 }
+
+.map {
+  grid-row: 3/4;
+}
