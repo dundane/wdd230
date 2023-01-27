@@ -70,6 +70,11 @@
                             <a href="week03/lazyload.html">Lazy Load</a><span> / </span><a
                                 href="https://codepen.io/dundane/pen/gOjoOMX">Winter Is Coming</a>
                         </li>
+                        <li>
+                            <span>Week 04 : </span><a href="week04/images/exercises.webp">Exercises Result</a><span> /
+                            </span>
+                            <a href="https://codepen.io/dundane/pen/BaPxdOO">Psudo Classes</a>
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -91,6 +96,20 @@
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
+        <form id="contact-us-form">
+            <label id="contact-message">Please Submit Your Contact Information</label>
+            <label class="field-label" for="contact-name">Full Name:</label>
+            <input id="contact-name" type="text" required>
+            <label class="field-label" for="contact-email">Email:</label>
+            <input id="contact-email" type="email" required>
+            <lable class="field-label" for="contact-page-rating">Page Rating:</lable>
+            <input id="contact-page-rating" type="range">
+            <label class="field-label" for="contact-user-name-id">Username Identifier:</label>
+            <input id="contact-user-name-id" type="password" required pattern="^(?=.*(\W)).{5,12}$">
+            <label class="field-label" for="contact-user-name-id-repeat">Username Identifier:</label>
+            <input id="contact-user-name-id-repeat" type="password" required pattern="^(?=.*(\W)).{5,12}$">
+            <button id="contact-submit" type="submit">Submit</button>
+        </form>
     </main>
 
     <footer>
@@ -101,6 +120,7 @@
     <script src="scripts/dark-theme.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/local-store.js"></script>
+    <script src="scripts/match-ids.js"></script>
 </body>
 
 </html>
