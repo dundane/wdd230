@@ -63,6 +63,7 @@
             </label>
             <label for="join-membership-level">Membership Level:
                 <select required id="join-membership-level">
+                    <option value=""></option>
                     <option value="np">Non Profit</option>
                     <option value="bronze">Bronze Membership</option>
                     <option value="silver">Silver Membership</option>
@@ -70,9 +71,9 @@
                 </select>
             </label>
             <label for="join-business-description">Business Description:
-                <input type="textarea" required id="join-business-description">
+                <textarea id="join-business-description" rows="4" cols="50">
             </label>
-            <input type="hidden" id="join-time"></input>
+            <input type="hidden" id="join-time">
             <button id="join-submit" type="submit">Submit</button>
         </form>
     </main>
