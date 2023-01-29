@@ -205,3 +205,19 @@ footer {
   display: block;
   height: 50rem;
 }
+
+#join {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  max-width: 450px;
+}
+
+#join label {
+  margin-top: 1rem;
+}
+
+#join button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 50%;
+}
