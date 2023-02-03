@@ -1,0 +1,43 @@
+{
+    "familyName": "Doerr",
+    "arrivalDate": "2022-03-10",
+    "familySize": 7,
+    "bishopricVisit": true,
+    "members": [
+        {
+            "name": "Jared",
+            "gender": "male",
+            "dateOfBirth": "1973-03-10"
+        },
+        {
+            "name": "Tiffany",
+            "gender": "female",
+            "dateOfBirth": "1979-05-23"
+        },
+        {
+            "name": "Alexander",
+            "gender": "male",
+            "dateOfBirth": "1997-11-14"
+        },
+        {
+            "name": "Bryce",
+            "gender": "male",
+            "dateOfBirth": "2000-11-02"
+        },
+        {
+            "name": "Logan",
+            "gender": "male",
+            "dateOfBirth": "2002-05-22"
+        },
+        {
+            "name": "William",
+            "gender": "male",
+            "dateOfBirth": "2007-02-17"
+        },
+        {
+            "name": "Anson",
+            "gender": "male",
+            "dateOfBirth": "2010-06-14"
+        }
+    ]
+}

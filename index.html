@@ -54,27 +54,8 @@
             <section class="learn-section card">
                 <h3>Learning Activites</h3>
                 <div class="card-content">
-                    <ul class="no-bullet-list">
-                        <li>
-                            <Span>Week 01 : </Span>
-                            <a href="week01/holygrail.html">Holy Grail</a><span> / </span>
-                            <a href="week01/chamber-site-plan.html">Chamber of Commerce Site Plan</a>
-                        </li>
-                        <li>
-                            <span>Week 02 : </span><a href="https://codepen.io/dundane/pen/LYBLNrj">Responsive
-                                Hamburger</a>
-                        </li>
-                        <li>
-                            <span>Week 03 : </span><a href="week03/images/landscape.webp">Landscape Image</a><span> /
-                            </span>
-                            <a href="week03/lazyload.html">Lazy Load</a><span> / </span><a
-                                href="https://codepen.io/dundane/pen/gOjoOMX">Winter Is Coming</a>
-                        </li>
-                        <li>
-                            <span>Week 04 : </span><a href="week04/images/exercises.webp">Exercises Result</a><span> /
-                            </span>
-                            <a href="https://codepen.io/dundane/pen/BaPxdOO">Psudo Classes</a>
-                        </li>
+                    <ul id="learning-items" class="no-bullet-list">
+
                     </ul>
                 </div>
             </section>
@@ -88,7 +69,14 @@
                 <h3>Information</h3>
                 <div class="card-content">
                     <div id="page-visits"></div>
+
+                    <p>The current temperature in West Jordan, Utah is <span id="current-temp"></span></p>
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
                 </div>
+
             </section>
         </div>
         <iframe class="map"
@@ -116,6 +104,9 @@
         <p id="copyright"></p>
         <p id="lastModified" class="highlight"></p>
     </footer>
+
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/cards.js"></script>
     <script src="scripts/get-dates.js"></script>
     <script src="scripts/dark-theme.js"></script>
     <script src="scripts/menu.js"></script>

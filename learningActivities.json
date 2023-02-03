@@ -1,0 +1,60 @@
+{
+    "week01": [
+        {
+            "name": "Holy Grail",
+            "url": "week01/holygrail.html"
+        },
+        {
+            "name": "Site Plan",
+            "url": "week01/chamber-site-plan.html"
+        }
+    ],
+    "week02": [
+        {
+            "name": "Responsive Hamburger",
+            "url": "https://codepen.io/dundane/pen/LYBLNrj"
+        }
+    ],
+    "week03": [
+        {
+            "name": "Landscape Image",
+            "url": "week03/images/landscape.webp"
+        },
+        {
+            "name": "Lazy Load",
+            "url": "week03/lazyload.html"
+        },
+        {
+            "name": "Winter is Coming",
+            "url": "https://codepen.io/dundane/pen/gOjoOMX"
+        }
+    ],
+    "week04": [
+        {
+            "name": "Exercises Results",
+            "url": "week04/images/exercises.webp"
+        },
+        {
+            "name": "Psudo Classes",
+            "url": "https://codepen.io/dundane/pen/BaPxdOO"
+        }
+    ],
+    "week05": [
+        {
+            "name": "Psudo Elements",
+            "url": "https://codepen.io/dundane/pen/OJwrodL"
+        },
+        {
+            "name": "Ward JSON",
+            "url": "week5/new-ward-members.json"
+        },
+        {
+            "name": "Fetch API",
+            "url": "week5/prophets.html"
+        },
+        {
+            "name": "Weather 3rd Party",
+            "url": "week5/weather.html"
+        }
+    ]
+}
