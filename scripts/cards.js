@@ -17,19 +17,25 @@ async function getActivities(jsonPath) {
 
 function buildWeeklyInfo(cardData) {
     learningItems = document.getElementById("learning-items");
-    cardData.forEach((activity) => {
-        let listItem = document.createElement("li");
-        let weekName = document.createElement("span");
-        weekName.innerHTML = activity;
-        listItem.appendChild(weekName);
-        learningItems.appendChild(listItem);
-
+    let listItem = document.createElement("li");
+    let weekName = document.createElement("span");
+    weekName.innerHTML = cardData.activities.week;
+    listItem.appendChild(weekName);
+    cardData.activities.activityList.forEach((activity) => {
+        let seperator = document.createElement("span");
+        seperator.innerHTML = ` | `;
+        let activityLink = document.createElement("a");
+        activityLink.setAttribute("href", activity.url);
+        activityLink.innerHTML = activity.name
+        listItem.appendChild(seperator);
+        listItem.appendChild(activityLink);
     });
+    learningItems.appendChild(listItem);
 }
 
 async function buildLearningCard(jsonFilePath) {
     result = await getActivities(jsonFilePath);
-    result.forEach((week) => {
+    result.weeks.forEach((week) => {
         buildWeeklyInfo(week);
     });
 }
