@@ -1,5 +1,5 @@
 
-let jsonFilePath = "learningActivities.json";
+let jsonFilePath = "data/learningActivities.json";
 
 async function getActivities(jsonPath) {
     try {
