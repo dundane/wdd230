@@ -55,11 +55,11 @@ h2 {
 .discover-right-sidebar {
   grid-row: 3/4;
   grid-column: 2/5;
-  height: 250px;
+  height: 300px;
   background-color: var(--paragraph-background-color);
 }
 
-.discover-right-sidebar label {
+.discover-right-sidebar .demographics-label {
   color: var(--headline-color-on-color);
   font-family: var(--heading-font);
 }
@@ -67,6 +67,7 @@ h2 {
 .discover-right-sidebar div {
   color: var(--headline-color-on-color);
   font-family: var(--paragraph-font);
+  margin-top: 0.3rem;
 }
 
 main {
@@ -82,11 +83,11 @@ main {
 main.discover-main {
   display: block;
   grid-column: 2/4;
-  margin-top: 250px;
+  margin-top: 300px;
   margin-bottom: 50px;
 }
 
-main.discover-main picture img {
+main.discover-main figure img {
   display: block;
   margin-top: 1.5rem;
   margin-left: auto;
@@ -96,7 +97,7 @@ main.discover-main picture img {
   max-width: 20rem;
 }
 
-main.discover-main picture label {
+main.discover-main figure figcaption {
   display: block;
   margin-top: 0.5rem;
   margin-left: auto;
@@ -104,6 +105,8 @@ main.discover-main picture label {
   padding-left: 2rem;
   width: 20rem;
   padding-top: 2rem;
+  font-family: var(--heading-font);
+  font-size: larger;
 }
 
 nav {

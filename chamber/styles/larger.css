@@ -51,11 +51,11 @@
     transform: scale(1.1);
   }
 
-  main.discover-main picture img {
+  main.discover-main figure img {
     margin-top: 0.5rem;
   }
 
-  main.discover-main picture label {
+  main.discover-main figure figcaption {
     margin-bottom: 2rem;
   }
 }
