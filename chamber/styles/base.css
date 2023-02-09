@@ -85,9 +85,6 @@ main.discover-main {
   margin-top: 250px;
   margin-bottom: 50px;
 }
-main.discover-main picture {
-  position: relative;
-}
 
 main.discover-main picture img {
   display: block;
@@ -95,7 +92,8 @@ main.discover-main picture img {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  width: 20rem;
+  height: 20rem;
+  max-width: 20rem;
 }
 
 main.discover-main picture label {
