@@ -10,10 +10,6 @@
     grid-template-columns: auto auto;
   }
 
-  main.discover-main img:hover {
-    transform: scale(1.1);
-  }
-
   #nav-menu-list,
   #nav-menu-list.menu-open {
     display: flex;
@@ -34,7 +30,9 @@
     display: flex;
     height: 25rem;
   }
+}
 
+@media only screen and (min-width: 70rem) {
   main.discover-main {
     display: grid;
     grid-template-columns: auto auto;
@@ -47,5 +45,17 @@
     height: auto;
 
     background-color: var(--paragraph-background-color);
+  }
+
+  main.discover-main img:hover {
+    transform: scale(1.1);
+  }
+
+  main.discover-main picture img {
+    margin-top: 0.5rem;
+  }
+
+  main.discover-main picture label {
+    margin-top: 3rem;
   }
 }

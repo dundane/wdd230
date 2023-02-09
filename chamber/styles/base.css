@@ -83,14 +83,29 @@ main.discover-main {
   display: block;
   grid-column: 2/4;
   margin-top: 250px;
+  margin-bottom: 50px;
+}
+main.discover-main picture {
+  position: relative;
 }
 
-main.discover-main img {
+main.discover-main picture img {
   display: block;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
+  width: 20rem;
+}
+
+main.discover-main picture label {
+  display: block;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  width: 20rem;
+  padding-top: 2rem;
 }
 
 nav {
