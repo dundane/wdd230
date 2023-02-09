@@ -5,7 +5,7 @@
             "address": "2616 Pasadena Fwy, Pasadena, TX 77506",
             "phoneNumber": "(713) 472-6464",
             "websiteUrl": "https://www.mundycos.com/",
-            "imageUrl": "https://static.wixstatic.com/media/cd8ee4_f93b5a04…6_1.00_0.01,enc_auto/The_Mundy_Companies_Logo.png",
+            "imageUrl": "images/mundylogo.webp",
             "membershipLevel": "silver",
             "description": "Founded in 1955, The Mundy Companies is a privately owned company headquartered in Houston, Texas with field offices in Texas, North Carolina, and Louisiana while performing work all throughout the Gulf and East Coast. The Mundy Companies has provided a single vendor solution in various types of industrial services for over 65 years."
         },
@@ -32,9 +32,9 @@
             "address": "302 1/2 Jefferson Rd, Pasadena, TX 77504",
             "phoneNumber": "(713) 473-5954",
             "websiteUrl": "https://www.colpipe.com/",
-            "imageUrl": "gold",
-            "membershipLevel": "Innovation has powered us since the early days. Colonial was the first in our industry to generate schedules from digital computers, starting as early as 1962. Ever since, technology has made us safer, smarter, and more efficient. From moving 240,000 barrels per day in 1963 to more than 2.5 million barrels per day today, we’ve continued to grow, expand, and diversify our business. And we’ve done it by putting safety first and never forgetting our commitment to the environment. Check out the timeline below to see our major milestones!",
-            "description": ""
+            "imageUrl": "images/colonialPipeline.webp",
+            "membershipLevel": "gold",
+            "description": "Innovation has powered us since the early days. Colonial was the first in our industry to generate schedules from digital computers, starting as early as 1962. Ever since, technology has made us safer, smarter, and more efficient. From moving 240,000 barrels per day in 1963 to more than 2.5 million barrels per day today, we’ve continued to grow, expand, and diversify our business. And we’ve done it by putting safety first and never forgetting our commitment to the environment. Check out the timeline below to see our major milestones!"
         },
         {
             "name": "Marathon Pipe Line",

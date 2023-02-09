@@ -139,6 +139,7 @@ footer {
   grid-column: 2/5;
   height: 2em;
   font-family: var(--paragraph-font);
+  height: 3rem;
 }
 
 #star {
@@ -198,7 +199,8 @@ footer {
 }
 
 .card {
-  margin: 1rem;
+  margin-bottom: 4rem;
+  margin-left: 3rem;
 }
 .card img {
   height: 20rem;
