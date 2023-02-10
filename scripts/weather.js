@@ -1,6 +1,6 @@
 const currentTemp = document.getElementById('current-temp');
 const weatherIcon = document.getElementById('weather-icon');
-const captionDesc = document.querySelector('figcaption');
+const captionDesc = document.getElementById('weather-caption');
 
 const apiKey = "efa14e1a26921cdc0ea8ef5c1b9f9244";
 

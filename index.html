@@ -44,11 +44,13 @@
         <a href="#" id="mode">&#9788;</a>
     </header>
     <main class="dark-mode">
-        <picture class="temple-picture">
-            <source media="(min-width:608px)" srcset="images/bountiful-temple-night.webp">
-            <img class="hero" src="images/bountiful-temple.webp" alt="arial photo bountiful temple" loading="lazy">
-            <div id="temple-label">Bountiful Temple</div>
-        </picture>
+        <figure class="temple-figure">
+            <picture>
+                <source media="(min-width:608px)" srcset="images/bountiful-temple-night.webp">
+                <img class="hero" src="images/bountiful-temple.webp" alt="arial photo bountiful temple" loading="lazy">
+            </picture>
+            <figcaption id="temple-label" value="Bountiful Temple">Bountiful Temple</figcaption>
+        </figure>
         <div class="content-cards">
             <h2>WDD 230: Course Activity Portal</h2>
             <section class="learn-section card">
@@ -72,8 +74,8 @@
 
                     <p>The current temperature in West Jordan, Utah is <span id="current-temp"></span></p>
                     <figure>
-                        <img id="weather-icon" src="" alt="">
-                        <figcaption></figcaption>
+                        <img id="weather-icon" src="#" alt="Weather Icon">
+                        <figcaption id="weather-caption"></figcaption>
                     </figure>
                 </div>
 
