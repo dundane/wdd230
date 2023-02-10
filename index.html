@@ -49,7 +49,7 @@
                 <source media="(min-width:608px)" srcset="images/bountiful-temple-night.webp">
                 <img class="hero" src="images/bountiful-temple.webp" alt="arial photo bountiful temple" loading="lazy">
             </picture>
-            <figcaption id="temple-label" value="Bountiful Temple">Bountiful Temple</figcaption>
+            <figcaption id="temple-label">Bountiful Temple</figcaption>
         </figure>
         <div class="content-cards">
             <h2>WDD 230: Course Activity Portal</h2>
@@ -88,16 +88,21 @@
         </iframe>
         <form id="contact-us-form">
             <label id="contact-message">Please Submit Your Contact Information</label>
-            <label class="field-label" for="contact-name">Full Name:</label>
-            <input id="contact-name" type="text" required>
-            <label class="field-label" for="contact-email">Email:</label>
-            <input id="contact-email" type="email" required>
-            <lable class="field-label" for="contact-page-rating">Page Rating:</lable>
-            <input id="contact-page-rating" type="range">
-            <label class="field-label" for="contact-user-name-id">Username Identifier:</label>
-            <input id="contact-user-name-id" type="password" required pattern="^(?=.*(\W)).{5,12}$">
-            <label class="field-label" for="contact-user-name-id-repeat">Username Identifier:</label>
-            <input id="contact-user-name-id-repeat" type="password" required pattern="^(?=.*(\W)).{5,12}$">
+            <label class="field-label">Full Name:
+                <input id="contact-name" type="text" required>
+            </label>
+            <label class="field-label">Email:
+                <input id="contact-email" type="email" required>
+            </label>
+            <lable class="field-label">Page Rating:
+                <input id="contact-page-rating" type="range">
+            </lable>
+            <label class="field-label">Username Identifier:
+                <input id="contact-user-name-id" type="password" required pattern="^(?=.*(\W)).{5,12}$">
+            </label>
+            <label class="field-label">Username Identifier:
+                <input id="contact-user-name-id-repeat" type="password" required pattern="^(?=.*(\W)).{5,12}$">
+            </label>
             <button id="contact-submit" type="submit">Submit</button>
         </form>
     </main>
