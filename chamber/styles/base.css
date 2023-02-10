@@ -226,12 +226,13 @@ footer {
 
 #join {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(9 auto);
   max-width: 450px;
 }
 
 #join label {
   margin-top: 1rem;
+  width: 35%;
 }
 
 #join button {
@@ -246,4 +247,5 @@ footer {
 
 .join {
   width: 395px;
+  background-color: var(--paragraph-background-color);
 }
