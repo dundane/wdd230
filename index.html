@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 230 - Portal - Jared Doerr</title>
@@ -10,10 +10,10 @@
     <meta name="author" content="Jared Doerr, doe22002@byui.edu">
 
     <meta property="og:title" content="Jared Doerr Course Assignment Portal">
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="website">
     <meta property="og:image" content="https://dundane.github.io/wdd230/images/profile-picture.webp">
     <meta property="og:url" content="https://dundane.github.io/wdd230/">
-    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:card" content="summary_large_image">
     <meta property="og:description" content="Portal for assignments for Jared Doerr Class wdd230">
     <meta property="og:site_name" content="Dundane Github">
     <meta property="twitter:image:alt" content="Image of Student Jared Doerr">
@@ -88,20 +88,20 @@
         </iframe>
         <form id="contact-us-form">
             <label id="contact-message">Please Submit Your Contact Information</label>
-            <label class="field-label">Full Name:
-                <input id="contact-name" type="text" required>
-            </label>
-            <label class="field-label">Email:
-                <input id="contact-email" type="email" required>
-            </label>
-            <label>Rating</label>
+            <label for="contact-name" class="field-label">Full Name:</label>
+            <input id="contact-name" type="text" required>
+
+            <label for="contact-email" class="field-label">Email:</label>
+            <input id="contact-email" type="email" required>
+
+            <label for="contact-page-rating" class="field-label">Site Rating:</label>
             <input id="contact-page-rating" type="range">
-            <label class="field-label">Username Identifier:
-                <input id="contact-user-name-id" type="password" required pattern="^(?=.*(\W)).{5,12}$">
-            </label>
-            <label class="field-label">Username Identifier:
-                <input id="contact-user-name-id-repeat" type="password" required pattern="^(?=.*(\W)).{5,12}$">
-            </label>
+            <label for="contact-user-name-id" class="field-label">Username Identifier:</label>
+            <input id="contact-user-name-id" type="password" required pattern="^(?=.*(\W)).{5,12}$">
+
+            <label for="contact-user-name-id-repeat" class="field-label">Username Identifier:</label>
+            <input id="contact-user-name-id-repeat" type="password" required pattern="^(?=.*(\W)).{5,12}$">
+
             <button id="contact-submit" type="submit">Submit</button>
         </form>
     </main>
