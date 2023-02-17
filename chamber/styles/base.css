@@ -144,8 +144,9 @@ footer {
 }
 
 .card {
-  margin-bottom: 4rem;
-  margin-left: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 1.5rem;
+  max-width: 15rem;
 }
 .card img {
   height: 15rem;
@@ -155,10 +156,7 @@ footer {
 /*Index Section*/
 
 .index-main {
-  display: grid;
-  grid-template-columns: 1fr auto auto 1fr;
   grid-template-rows: auto auto auto auto auto;
-  display: block;
 }
 
 .hero {
@@ -185,15 +183,16 @@ footer {
 .main-section-row-two {
   grid-row: 2/3;
   grid-column: 2/4;
-  display: block;
-  height: 25rem;
 }
 
 .main-section-row-three {
   grid-row: 3/4;
   grid-column: 2/4;
-  display: block;
-  height: 50rem;
+}
+
+.main-section-row-four {
+  grid-row: 3/4;
+  grid-column: 2/4;
 }
 
 /*discover*/
@@ -280,6 +279,7 @@ main.discover-main figure figcaption {
   grid-row: 2/3;
   border-radius: 10%;
   margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 .weather-card {
