@@ -103,7 +103,8 @@ footer {
   grid-column: 2/5;
   font-family: var(--paragraph-font);
   height: 5rem;
-  width: 17rem;
+  width: fit-content;
+  margin-left: -5rem;
 }
 
 #star {
@@ -156,17 +157,19 @@ footer {
 
 .index-main {
   grid-template-rows: auto auto auto auto auto;
+  margin-left: -3rem;
 }
 
 .hero {
   grid-row: 1/2;
   grid-column: 1/5;
-  height: 12rem;
+  height: 14rem;
+  margin-left: -2rem;
 }
 
 #hero-image img {
   margin-right: 0px;
-  width: 275px;
+  width: 22rem;
 }
 
 .main-section-row-two {
@@ -194,12 +197,14 @@ footer {
   grid-column: 2/4;
 }
 
-/*discover*/
+/*discover section */
 .discover-right-sidebar {
   grid-row: 3/4;
   grid-column: 2/5;
-  height: 300px;
+  height: 20rem;
   background-color: var(--paragraph-background-color);
+  margin-left: -4rem;
+  width: 18rem;
 }
 
 .discover-right-sidebar .demographics-label {
@@ -218,6 +223,10 @@ main.discover-main {
   grid-column: 2/4;
   margin-top: 300px;
   margin-bottom: 50px;
+}
+
+main.discover-main figure {
+  margin-left: -4rem;
 }
 
 main.discover-main figure img {
