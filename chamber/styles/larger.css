@@ -93,6 +93,10 @@
     grid-template-rows: auto 1fr;
   }
 
+  .weather-widget {
+    margin-left: 0.5rem;
+  }
+
   .weather-widget h3 {
     font-family: var(--heading-font);
   }
