@@ -41,34 +41,48 @@
     <header>
         <h1>Pasadena Chamber of Commerce</h1>
     </header>
-    <main>
+    <main class="index-main">
         <section class="hero">
             <div id="hero-image"><img src="images/flags-hero.webp" alt="Pasadena City Hall"></div>
+            <h1 id="chamber-meeting-ad">Join us for our Chamber of Commerce Meeting at 7:00pm Wed.</h1>
         </section>
         <section class="card-section main-section-row-two">
-            <div class="card">
+            <div class="card activities-card">
                 <h2>Activities</h2>
                 <img src="images/strawberry-festival.webp" alt="Strawberry Festival sign">
             </div>
-            <div class="card">
-                <h2>Industry</h2>
-                <img src="images/industrial-center.webp" alt="Pasadena Industrial Center">
+            <div id="gold-ad" class="card">
+                <h2>Please support our chamber of commerce members</h2>
             </div>
         </section>
         <section class="card-section main-section-row-three">
-            <div class="card">
+            <div class="card industry-card">
+                <h2>Industry</h2>
+                <img src="images/industrial-center.webp" alt="Pasadena Industrial Center">
+            </div>
+            <div class="card community-card">
                 <h2>Community</h2>
                 <img src="images/san-jacinto-pasadena.webp" alt="Pasadena from the San Jacito Monument">
             </div>
-            <div class="card">
-                <h2>Weather</h2>
-                <img src="images/pasadena-weather.webp" alt="">
+        </section>
+        <section class="card-section main-section-row-four">
+            <div class="card weather-card">
+                <h2>Weather In Pasadena Texas</h2>
+                <div id="weather-now" class="weather-widget"></div>
+                <div id="weather-tomorrow" class="weather-widget"></div>
+                <div id="weather-day-three" class="weather-widget"></div>
+            </div>
+            <div id="silver-ad" class="card">
+                <h2>Please support our chamber of commerce members</h2>
             </div>
         </section>
     </main>
     <footer>
         <p id="copyright"></p>
     </footer>
+    <script src="scripts/adserver.js"></script>
+    <script src="scripts/directory.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/get-dates.js"></script>
     <script src="scripts/responsive-header.js"></script>
 </body>

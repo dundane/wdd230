@@ -24,11 +24,46 @@
     height: 25rem;
   }
 
+  .index-main .card {
+    width: 25rem;
+  }
+
   .main-section-row-three {
     grid-row: 3/4;
     grid-column: 2/4;
     display: flex;
     height: 25rem;
+  }
+
+  .weather-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  .weather-widget h3 {
+    font-family: var(--heading-font);
+  }
+
+  .weather-card h2 {
+    grid-column: 1/4;
+  }
+
+  #weather-now {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  #weather-tomorrow {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  #weather-day-three {
+    grid-row: 2/3;
+    grid-column: 3/4;
+  }
+
+  #hero-image {
+    display: block;
   }
 }
 
