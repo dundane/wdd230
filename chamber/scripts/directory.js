@@ -98,11 +98,6 @@ function displayAd(company, adSlotId) {
     adSlot.appendChild(adCompanyDescription);
 }
 
-
-
-
-
-
 async function onPageLoad() {
     let url = window.location.href;
     if (url.includes("directory.html")) {
