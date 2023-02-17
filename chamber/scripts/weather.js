@@ -9,10 +9,11 @@ async function apiFetchWeather(fetchUrl) {
         const response = await fetch(fetchUrl);
         if (response.ok) {
             const data = await response.json();
-
-            displayForecastWidget("weather-now", populateWeatherWidgetData(data));
-            displayForecastWidget("weather-tomorrow", populateWeatherWidgetData(data));
-            displayForecastWidget("weather-day-three", populateWeatherWidgetData(data));
+            console.table(data);
+            forecastItems = GetThreeDayForecast(data);
+            displayForecastWidget("weather-now", forecastItems[0]);
+            displayForecastWidget("weather-tomorrow", forecastItems[1]);
+            displayForecastWidget("weather-day-three", forecastItems[2]);
         } else {
             throw Error(await response.text());
         }
@@ -20,6 +21,7 @@ async function apiFetchWeather(fetchUrl) {
         console.log(error);
     }
 }
+
 
 async function apiFetchForecast(fetchUrl) {
     try {
@@ -35,23 +37,37 @@ async function apiFetchForecast(fetchUrl) {
     }
 }
 
+function GetThreeDayForecast(data) {
+    let forecast = [];
+    forecast.push(populateWeatherWidgetData(data.list[0]))
+    forecast.push(populateWeatherWidgetData(data.list[8]))
+    forecast.push(populateWeatherWidgetData(data.list[16]))
+    return forecast;
+}
+
 function populateWeatherWidgetData(data) {
     let widgetData = {};
-    widgetData.Date = "Mar 10"
+    let widgetDate = new Date(data.dt_txt);
+    widgetData.Date = widgetDate.toLocaleString('default', { month: 'short' }) + " " + widgetDate.getDate();
     widgetData.Temprature = data.main.temp;
     widgetData.IconSource = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     widgetData.Description = data.weather[0].description;
     return widgetData;
 }
 
-apiFetchWeather(openWeatherUrl);
+apiFetchWeather(forecastUrl);
 
 function displayForecastWidget(containerName, widgetData) {
     const container = document.getElementById(containerName);
     const forcastDate = document.createElement("h3")
     forcastDate.classList.add('forcast-date');
+
+
     const currentTemp = document.createElement("div")
     currentTemp.classList.add('current-temp');
+
+
+
     const imageContainer = document.createElement("figure")
     imageContainer.classList.add('weather-icon-container');
     const weatherIcon = document.createElement("img");
